@@ -1,9 +1,8 @@
 # FATEC Profº Jessen Vidal - São José dos Campos - 3º Semestre DSM - 2026
 
-<p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM), no projeto de <b>Controle de Apontamento de Horas</b>.</p>
+<p>Projeto desenvolvido para a ABP ( Aprendizagem Baseada em Projetos ) do 4° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM), no projeto de <b>Sistema Integrado de Controle de Acesso</b>.</p>
 
-> _A API se trata de um projeto submetido à metodologia de ensino em implantação na Fatec São José dos Campos, do qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
-
+> _A ABP se trata de um projeto com o objetivo de conectar os estudantes a desafios reais do mercado de trabalho no qual os alunos formam equipes baseadas na metodologia ágil SCRUM, tendo um aluno como Scrum Master, um sendo o Product Owner e o restante dos integrantes como Dev Team._
 <p align="center">
 <a href="#dor-do-cliente">Dor do Cliente</a> |
 <a href="#objetivo-do-produto">Objetivo do Produto</a> |
@@ -15,7 +14,6 @@
 <a href="#estrutura">Estrutura do Projeto</a> |
 <a href="#instalacao">Manual de Instalação</a> |
 <a href="#usuario">Manual do Usuário</a> |
-<a href="#entrega">Modelo de Entrega</a> |
 <a href="#equipe">Equipe</a>
 </p>
 
@@ -27,17 +25,6 @@ A solução permitirá que os colaboradores registrem suas horas de forma centra
 
 ## Dor do Cliente <a id="dor-do-cliente"></a>
 
-**Contextualização:** A GSW Soluções Integradas gerencia múltiplos projetos com equipes distribuídas por todo o Brasil, operando em um ambiente de alta complexidade onde o volume de demandas cresce continuamente.
-
-**Dor do cliente:** A principal dor do cliente é a dispersão dos dados — hoje distribuídos entre planilhas, mensagens e anotações — que gera inconsistências, retrabalho e pouca clareza sobre como o tempo é distribuído entre projetos e atividades. Sem essa base centralizada, profissionais não têm um lugar padronizado para registrar seu trabalho, gestores não têm visibilidade confiável sobre esforço e custos, o administrativo não consegue monitorar alocações e o financeiro não tem dados sólidos para sustentar a cobrança.
-
-**Impactos:** A dispersão dos dados gera diversos impactos na operação da GSW. O grupo considerou três como os mais críticos e os definiu como foco do desenvolvimento:
-
-- **Registro de horas:** profissionais não têm um lugar padronizado para registrar como gastam seu tempo e gestores não têm controle sobre a estrutura de projetos e equipes, tornando os lançamentos inconsistentes e sem rastreabilidade para a empresa.
-- **Acompanhamento de projetos:** gestores não conseguem visualizar a alocação do time, o status das tarefas nem identificar gargalos em tempo hábil para agir.
-- **Dados financeiros:** o financeiro não tem base confiável para calcular custos reais por projeto ou sustentar o faturamento.
-
-**Conclusão:** A escolha por desenvolver uma solução própria é direta: cada funcionalidade foi construída a partir de necessidades reais levantadas com Diego Miranda. O sistema do KernelPanic trata os três perfis de forma integrada — o profissional registra, o gestor valida e o financeiro decide — com rastreabilidade em cada etapa e um fluxo completo construído para a realidade da GSW.
 
 ## Objetivo do Produto <a id="objetivo-do-produto"></a>
 
@@ -82,15 +69,15 @@ Cada sprint foi planejada para atacar um dos três impactos mais críticos ident
 | :--- | :--- |
 | **Clareza na Descrição** | A User Story deve estar escrita de forma clara e objetiva no padrão: "Como [usuário], quero [ação], para [benefício]" tendo que estar alinhada às regras de negócio. |
 | **Critérios de Aceitação Definidos** | A história possui critérios objetivos que indicam o que é necessário para considerá-la concluída. |
-| **Dependências Verificadas** | As dependências com outras User Stories ou tarefas estão identificadas e registradas, e não há bloqueios para o início da implementação. |
-| **Documentos de Apoio** | Critérios de aceitação, cenários, regras de negócio e dicionário de dados estão documentados e anexados na pasta de documentos (docs). |
+| **Dependências Verificadas** | As dependências com outras User Stories ou tarefas estão identificadas e registradas e não há bloqueios para o início da implementação. |
+| **Documentos de Apoio** | Critérios de aceitação, cenários e regras de negócio estão documentados e anexados na pasta de documentos . |
 
 ### DoD - Definition of Done
 
 | Critério | Descrição |
 | :--- | :--- |
 | **Critérios de Aceitação Atendidos** | Todos os cenários de testes foram executados e aprovados. |
-| **Código Revisado** | O código foi revisado por pelo menos um membro do Dev Team e validado pelo Product Owner. |
+| **Código Revisado** | O código foi revisado por pelo menos um membro do Dev Team e validado pelo Product Owner. | - ALTERAR AQUI 
 | **Estabilidade do Sistema** | A funcionalidade implementada não quebra funcionalidades já existentes no sistema. |
 | **Padrão de Commits e Branch Seguido** | O código segue o padrão de mensagens de commit e estratégia de branch definidos pelo time. |
 | **Documentação Atualizada** | Documentação da API atualizada ao longo de cada sprint e conferida no final de cada uma (quando aplicável). |
@@ -208,9 +195,6 @@ O Manual do Usuário está disponível em PDF na pasta de documentação do proj
 
 [📄 Acessar Manual do Usuário](Documenta%C3%A7%C3%A3o/Manual%20do%20Usuario.pdf)
 
-## Modelo de Entrega <a id="entrega"></a>
-
-O sistema é entregue como serviço hospedado, com a equipe desenvolvedora responsável pela operação e manutenção contínua. A GSW Soluções Integradas recebe acesso ao sistema e ao Manual do Usuário. Qualquer solicitação de ajuste, correção ou evolução deve ser encaminhada à equipe responsável pelo produto.
 
 ## Equipe <a id="equipe"></a>
 
